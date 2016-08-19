@@ -4,12 +4,13 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/newedenfaces-react"
+    "url": "https://github.com/Princess310/node_react_demo"
   },
   "main": "server.js",
   "scripts": {
     "start": "babel-node server.js",
-    "watch": "nodemon --exec babel-node -- server.js"
+    "watch": "nodemon --exec babel-node -- server.js",
+    "postinstall": "bower install && gulp build"
   },
   "dependencies": {
     "alt": "^0.17.1",
